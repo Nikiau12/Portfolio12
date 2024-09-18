@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikita Kotrelev</title>
+    <link rel="icon" href="Скан 38 (1).png" type="image/png" sizes="64x64">
+    <style>
+        html, body {
+            overflow-x: hidden; /* Скрыть горизонтальную прокрутку */
+            overflow-y: auto;   /* Позволить вертикальную прокрутку */
+            margin: 0;          /* Убрать отступы */
+            padding: 0;         /* Убрать отступы */
+            font-family: 'Stolzl Book', sans-serif;
+            background-color: #000000;
+            color: #333;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 2rem;
+        }
+
+        header {
+            background-color: transparent;
+            color: #ffffff;
+            padding: 0rem 1rem;
+            width: 100%;
+            display: flex;
+            flex-direction: column; /* Вертикальное размещение элементов */
+            align-items: center; /* Центрирование по горизонтали */
+            position: relative;
+            transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+            z-index: 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            transform: translateY(-57%);
+            transform: translateX(-70%);
+            letter-spacing: 1px;
+            transition: color 0.1s ease-in-out;
+            font-family: 'Galey', Modern Sans Serif Font;
+        }
+
+        header .subheading {
+            font-size: 1.1rem;
+            transform: translateY(-57%);
+            transform: translateX(-141%);
+            font-family: 'Stolzl', Light;
+            color: #ffffff;
+            margin-top: 0.5rem;
+        }
+
+        .header-nav {
+            margin-top: 1rem;
+        }
+
+        .header-nav nav {
+            display: flex;
+            transform: translateX(75%);
+            gap: 3rem;
+        }
+
+        .header-nav a {
+            color: #ffffff;
+            transform: translateY(-250%);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-family: 'Stolzl', Light;
+        }
+
+        .content {
+            max-width: 1200px;
+            width: 100%;
+            padding: 3rem 5rem;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        .content img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: transparent;
+            color: #000000;
+            text-align: left;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            border-top: none;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><a href="index.html" style="color: inherit; text-decoration: none;">Nikita Kotrelev</a></h1>
+        <div class="subheading">Cinematographer</div>
+        <div class="subheading">Photographer</div>
+        <div class="header-nav">
+            <nav>
+                <a href="Video.html">VIDEO</a>
+                <a href="photos.html">PHOTOS</a>
+                <a href="about.html">ABOUT ME</a>
+                <a href="contact.html">CONTACT</a>
+            </nav>
+        </div>
+    </header>
+    <div class="content">
+        <!-- Здесь будет контент главной страницы, который вы укажете -->
+        <h2>Welcome to the portfolio of Nikita Kotrelev</h2>
+        <p>Here you can find information about my work as a cinematographer and photographer. Use the navigation links above to explore different sections of my portfolio.</p>
+        <img src="your-main-image.jpg" alt="Main Image">
+    </div>
+    <footer>
+        <p>&copy; 2024 Nikita Kotrelev</p>
+    </footer>
+</body>
+</html>
